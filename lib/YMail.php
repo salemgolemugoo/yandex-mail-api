@@ -112,6 +112,6 @@ class YMail {
 			'no_user' => 'Не существующий пользователь',
 			'no token found' => 'Не существующий токен',
 		);
-		return $errors[$reason];
+		return isset($errors[$reason]) ? $errors[$reason] : $reason;
 	}
 }
