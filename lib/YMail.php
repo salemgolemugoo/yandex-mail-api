@@ -13,6 +13,10 @@ class YMail {
 	//domain token
 	protected $domain_token = 'YOUR DOMAIN TOKEN';
 
+	public function __construct($token) {
+		$this->domain_token = $token;
+	}
+
 	//get data by method
 	protected function getRequest($method, $params = array()) {
 		$token = array('token' => $this->domain_token);
