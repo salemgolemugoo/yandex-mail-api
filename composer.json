@@ -1,0 +1,15 @@
+{
+    "name": "salemgolemugoo/yandex-mail-api",
+    "description": "Yandex mail API library",
+    "keywords": ["Mail", "API", "Yandex"],
+    "type": "library",
+    "require": {
+	"php": ">=5.3.2",
+	"ext-curl": "*",
+	"ext-json": "*",
+	"ext-simplexml": "*"
+    },
+    "autoload": {
+	"classmap": "lib/"
+    }
+}
