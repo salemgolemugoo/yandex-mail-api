@@ -10,6 +10,6 @@
         "ext-simplexml": "*"
     },
     "autoload": {
-	    "psr-0": {"YandexMail": "lib/"}
+	    "psr-0": {"": "lib/"}
     }
 }
